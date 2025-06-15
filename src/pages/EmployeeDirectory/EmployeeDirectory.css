@@ -1,0 +1,116 @@
+.layout {
+  display: flex;
+  background-color: #f4f7fc;
+  min-height: 100vh;
+}
+
+.employee-directory {
+  margin-left: 220px;
+  padding: 30px 40px;
+  width: calc(100% - 220px);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.employee-directory h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #111827;
+}
+
+.filter-box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+.input-group {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.input-group input,
+.input-group select {
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  flex: 1;
+  min-width: 180px;
+}
+
+.employee-table {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.employee-table h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.employee-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.employee-table th {
+  font-weight: 600;
+  background-color: #f9fafb;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination span {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  background-color: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.pagination button:hover {
+  background-color: #2563eb;
+}
+
+.employee-table tr:hover{
+  background-color: #ccc;
+}

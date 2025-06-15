@@ -1,0 +1,165 @@
+.login-container {
+  background-color: #19398a;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.login-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.logo img {
+  height: 249px;
+  width: 249px;
+  position: absolute;
+  top: 30px;
+  left: 260px;
+  z-index: 10;
+}
+
+.form {
+  position: absolute;
+  background-color: #fff;
+  max-width: 464px;
+  max-height: 421px;
+  top: 280px;
+  left: 225px;
+  border-radius: 8px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  z-index: 22;
+}
+
+.form h2 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 92px;
+  text-align: left;
+  color: #000;
+  margin-bottom: 20px;
+  letter-spacing: -1%;
+}
+
+.form label {
+  font-size: 14px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button {
+  width: 100%;
+  background-color: #19398a;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.forgot {
+  margin-top: 12px;
+  text-align: center;
+  color: #19398a;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.login-illustration {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.login-illustration img {
+  height: 750px;
+  width: 100%;
+  max-width: 1455px;
+  position: absolute;
+  top: 30px;
+  left: 337px;
+  object-fit: contain;
+}
+
+/* ------------------------- */
+/* 📱 Max Width: 1024px */
+/* ------------------------- */
+@media screen and (max-width: 1024px) {
+  .login-illustration {
+    display: none;
+  }
+
+  .logo img {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .form {
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 20px auto;
+    max-width: 90%;
+    max-height: none;
+  }
+
+  .form h2 {
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+  }
+}
+
+/* ------------------------- */
+/* 📱 Max Width: 768px */
+/* ------------------------- */
+@media screen and (max-width: 768px) {
+  .form {
+    padding: 15px 20px;
+  }
+
+  .form input,
+  .form button {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .form h2 {
+    font-size: 24px;
+  }
+
+  .forgot {
+    font-size: 12px;
+  }
+
+  .logo img {
+    height: 180px;
+    width: 180px;
+  }
+}
