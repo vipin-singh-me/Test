@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AdminLogin from './pages/Login/AdminLogin';
-import Dashboard from './components/Dashboard/Dashboard.Jsx';
+import Dashboard from './components/Dashboard/Dashboard.jsx';
 import EmployeeDirectory from './pages/EmployeeDirectory/EmployeeDirectory';
 import LeaveReaquest from './pages/LeavesReaquest/LeaveReaquest';
 import DocumentTracker from './pages/DocumentTracker/DocumentTracker';
@@ -9,7 +9,7 @@ import Analytics from './pages/Analytics/Analytics';
 import Notifications from './pages/Notification/Notifications';
 import EmployeeDetail from './components/EmployeeDetail/EmployeeDetail';
 import EmpLogin from './pages/EmpLogin/EmpLogin';
-import EmployeeDashboard from './EmployeeDash/EmployeeDashboard ';
+import EmployeeDashboard from './EmployeeDash/EmployeeDashboard';
 
 const App = () => {
   return (
